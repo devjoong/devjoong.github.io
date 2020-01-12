@@ -30,7 +30,7 @@ last_modified_at: 2020-01-06 22:00:00
 ## 사전 작업
 이 스크립트를 이용하기 위해서는 expect가 설치되어 있어야 합니다.  
 설치 방법은 간단합니다.  
-```
+```bash
 $ yum install -y expect
 ```
 

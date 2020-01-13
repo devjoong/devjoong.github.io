@@ -34,13 +34,13 @@ $ glide init
 ```
 2. javascript 프로젝트에 **npm install {package 이름}**을 이용해서 package를 설치했었죠?  
 go 역시 필요한 package를 설치할 때 이 명령어를 사용합니다.  
-install이 아니라 get임을 주의해야 합니다.
+install이 아니라 get임을 주의해야 합니다.  
 실행이 완료되면 glide.lock 파일이 새로 생기고 glide.yaml 파일과 함께 설치한 package가 등록될 것입니다.  
 그리고 vendor라는 폴더가 생겼을 텐데 이 폴더는 javascript 프로젝트의 **node_modules**와 같은 폴더입니다.
 ```bash
 $ glide get {package 경로}
 ```
-3. 잘못 설치했던 javascript package는 **npm uninstall {package 이름}**으로 지웠었습니다.
+3. 잘못 설치했던 javascript package는 **npm uninstall {package 이름}**으로 지웠었습니다.  
 go는 필요 없어진 package를 지울 때 이 명령어를 사용합니다.
 실행이 완료되면 install과 마찬가지로 glide.yaml, glide.lock파일이 갱신되고 vendor 폴더에서 해당 package가 삭제됩니다.
 ```bash

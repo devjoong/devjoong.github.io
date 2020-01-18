@@ -1,5 +1,5 @@
 ---
-title:  "glide 기본 사용법과 yaml, lock파일 파헤치기"
+title:  "glide 기본 사용법과 yaml, lock파일 이해하기"
 excerpt: "golang의 package manager인 glide의 사용법을 npm과 비교하며 알아보고 glide.yaml, glide.lock 파일을 알아보자"
 
 categories:
@@ -7,7 +7,6 @@ categories:
 tags:
   - golang
   - go
-  - go package manager
   - package manager
   - glide
   - glide.yaml

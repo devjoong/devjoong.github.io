@@ -5,21 +5,10 @@ excerpt: "Shell Script의 expect를 이용하면 원하는 시점에 비밀번�
 categories:
   - LearnFromExample
 tags:
-  - 복구
-  - 쉘
-  - 쉘스크립트
-  - 스크립트
-  - bash
-  - db
-  - expect
   - for
-  - insert
-  - mariadb
-  - mysql
-  - recover
-  - restore
-  - script
-  - shell
+  - expect
+  - mysql restore
+  - shell script
 last_modified_at: 2020-01-06 22:00:00
 ---
 shell script를 작성하고 사용할 때 비밀번호를 넣어주고 싶은 경우가 있습니다.  

@@ -3,15 +3,13 @@ title:  "golang과 memcached를 연결할 때 발생할 수 있는 오류"
 excerpt: "golang의 github.com/bradfitz/gomemcache/memcache package를 이용하여 memcached에 연결했을 때 쉽게 발생하지만 모르면 해결할 수 없는 오류"
 
 categories:
-  - TipsForError
+  - Tips
 tags:
   - golang
   - go
   - go client
-  - memcached
   - memcached server
   - error
-  - 오류
   - connect
   - timeout
   - GCP

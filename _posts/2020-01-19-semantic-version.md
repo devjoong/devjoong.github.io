@@ -85,4 +85,4 @@ A에는 ab, B에는 bc라는 sub module이 추가로 사용되었습니다.
 
 ## 참고
 더 자세한 내용을 참고하고 싶으신 경우에는 아래 링크를 참고해주세요.  
-> https://semver.org/
+> [https://semver.org/](https://semver.org/)

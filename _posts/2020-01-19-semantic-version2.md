@@ -12,7 +12,7 @@ tags:
   - package.json
 last_modified_at: 2020-01-18 18:00:00
 ---
-[지난 포스팅에서 설명한 Semantic Versioning]({{ site.url }}/tips/semantic-version2/)과 관련하여 이 표기법을 package manager에서는 어떻게 사용하고 있는지 이해해보고자 합니다.  
+[지난 포스팅에서 설명한 Semantic Versioning]({{ site.url }}/tips/semantic-version/)과 관련하여 이 표기법을 package manager에서는 어떻게 사용하고 있는지 이해해보고자 합니다.  
 <br>
 
 ## 이해해야 할 부분

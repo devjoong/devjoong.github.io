@@ -37,6 +37,7 @@ $ glide init
 1. javascript 프로젝트 내에 package.json 파일이 없다면 무엇을 하시나요? 아마 **npm init**부터 할 것입니다.  
 go 역시 프로젝트 내에 glide.yaml 파일이 없다면 이 명령어 부터 시작하면 됩니다. glide.yaml 파일을 생성해줍니다.  
 프로젝트 진행 도중에 이를 실행하면 해당 프로젝트 파일들을 모두 읽으며 import되어 있는 package들, package에 쓰이는 또 다른 package들을 모두 확인하여 glide.yaml 파일을 만들어줍니다.  
+
 ```bash
 $ glide get {package 경로}
 ```
@@ -45,6 +46,7 @@ go 역시 필요한 package를 설치할 때 이 명령어를 사용합니다.
 install이 아니라 get이라는 차이가 있습니다.  
 실행이 후 glide.lock 파일이 없었다면 새로 생기고 glide.yaml 파일과 함께 설치한 package가 등록될 것입니다.  
 그리고 vendor라는 폴더가 생겼을 텐데 이 폴더는 javascript 프로젝트의 **node_modules**와 같은 폴더입니다.  
+
 ```bash
 $ glide install
 ```
@@ -52,6 +54,7 @@ $ glide install
 2번에서 get을 사용한 이유가 여기서 install을 쓰기 때문입니다.  
 명령어를 다르게 사용함으로써 덜 헷갈리고 기억할 수 있는 것 같습니다.  
 이 명령어도 2번의 명령어처럼 glide.lock 파일, vendor라는 폴더가 새로 생깁니다.  
+
 ```bash
 $ glide remove {package 경로}
   or

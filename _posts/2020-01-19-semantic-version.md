@@ -17,7 +17,7 @@ Github에 프로젝트를 올리고 Release할 때 어떻게 버전을 붙여아
 <br>
 
 ## 왜 버전 네이밍이 중요할까요?
-Module|Sub Module
+Module | Sub Module
 :---: | :---:
 A | aa, ac
 B | bb, bd
